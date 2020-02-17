@@ -1,0 +1,2 @@
+# factory
+Factory Design Pattern
