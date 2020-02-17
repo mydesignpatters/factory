@@ -1,4 +1,4 @@
-package app;
+package app.dao;
 
 public class Produto{
     private String id;

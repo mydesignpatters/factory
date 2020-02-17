@@ -1,8 +1,11 @@
-package app;
+package app.servico;
 
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
+
+import app.dao.DAO;
+import app.util.GeradorArquivo;
 
 public abstract class ServicoAbstrato<E> {
     public GeradorArquivo gerador;

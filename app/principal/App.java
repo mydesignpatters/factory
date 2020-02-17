@@ -1,8 +1,12 @@
-package app;
+package app.principal;
 
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
+
+import app.dao.Produto;
+import app.servico.ServicoProduto;
+import app.util.GeradorXML;
 
 public class App {
     public static void main(String[] args) {

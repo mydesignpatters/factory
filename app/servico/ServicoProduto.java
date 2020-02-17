@@ -1,6 +1,11 @@
-package app;
+package app.servico;
 
-public class ServicoProduto extends ServicoAbstrato<Produto>{
+import app.dao.DAO;
+import app.dao.Produto;
+import app.dao.ProdutoDAO;
+import app.util.GeradorArquivo;
+
+public class ServicoProduto extends ServicoAbstrato<Produto> {
     public ServicoProduto(GeradorArquivo gerador) {
         super(gerador);
     }
