@@ -1,4 +1,4 @@
-package app.dao;
+package app.factory.dao;
 
 public class Produto{
     private String id;

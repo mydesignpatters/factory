@@ -1,4 +1,4 @@
-package app.util;
+package app.factory.util;
 
 import java.io.FileOutputStream;
 import java.io.IOException;

@@ -1,12 +1,12 @@
-package app.principal;
+package app.factory.principal;
 
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-import app.dao.Produto;
-import app.servico.ServicoProduto;
-import app.util.GeradorXML;
+import app.factory.dao.Produto;
+import app.factory.servico.ServicoProduto;
+import app.factory.util.GeradorXML;
 
 public class App {
     public static void main(String[] args) {
